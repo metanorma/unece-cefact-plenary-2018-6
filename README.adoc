@@ -6,7 +6,7 @@ image:https://travis-ci.com/riboseinc/unece-cefact-plenary-2018-6.svg?branch=mas
 
 This document is available in its rendered forms here:
 
-* https://riboseinc.github.io/unece-cefact-plenary-2018-6/[riboseinc Calendar operator practices -- Guidelines to protect against calendar abuse (HTML)]
+* https://riboseinc.github.io/unece-cefact-plenary-2018-6/[UN/CEFACT Plenary item 2018/6 (HTML)]
 * https://riboseinc.github.io/unece-cefact-plenary-2018-6/unece-cefact-plenary-2018-6.pdf[PDF]
 * https://riboseinc.github.io/unece-cefact-plenary-2018-6/unece-cefact-plenary-2018-6.xml[Metanorma XML]
 * https://riboseinc.github.io/unece-cefact-plenary-2018-6/unece-cefact-plenary-2018-6.rxl[Relaton XML (Bibliographic item)]

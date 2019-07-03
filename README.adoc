@@ -3,13 +3,14 @@
 = UN/CEFACT Plenary item 2018/6
 
 image:https://travis-ci.com/riboseinc/unece-cefact-plenary-2018-6.svg?branch=master["Build Status", link="https://travis-ci.com/riboseinc/unece-cefact-plenary-2018-6"]
+image:https://ci.appveyor.com/api/projects/status/3k4fk4qqyuycvkge?svg=true["Build Status", link="https://ci.appveyor.com/project/ribose/unece-cefact-plenary-2018-6"]
 
 This document is available in its rendered forms here:
 
-* https://riboseinc.github.io/unece-cefact-plenary-2018-6/[UN/CEFACT Plenary item 2018/6 (HTML)]
-* https://riboseinc.github.io/unece-cefact-plenary-2018-6/unece-cefact-plenary-2018-6.pdf[PDF]
-* https://riboseinc.github.io/unece-cefact-plenary-2018-6/unece-cefact-plenary-2018-6.xml[Metanorma XML]
-* https://riboseinc.github.io/unece-cefact-plenary-2018-6/unece-cefact-plenary-2018-6.rxl[Relaton XML (Bibliographic item)]
+* https://metanorma.github.io/unece-cefact-plenary-2018-6/[UN/CEFACT Plenary item 2018/6 (HTML)]
+* https://metanorma.github.io/unece-cefact-plenary-2018-6/unece-cefact-plenary-2018-6.pdf[PDF]
+* https://metanorma.github.io/unece-cefact-plenary-2018-6/unece-cefact-plenary-2018-6.xml[Metanorma XML]
+* https://metanorma.github.io/unece-cefact-plenary-2018-6/unece-cefact-plenary-2018-6.rxl[Relaton XML (Bibliographic item)]
 
 
 == Fetching the document

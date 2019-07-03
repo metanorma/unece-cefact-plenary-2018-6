@@ -1,229 +1,230 @@
-GIT
-  remote: https://github.com/riboseinc/metanorma-cli
-  revision: 3a0108c76449e7aaed4a6a2d7f22a3530a212ca2
-  specs:
-    metanorma-cli (1.0.5)
-      asciidoctor-rfc (~> 0.9.0)
-      isodoc (~> 0.9.0)
-      metanorma (~> 0.3.0)
-      metanorma-acme (~> 1.0.1)
-      metanorma-csand (~> 1.0.5)
-      metanorma-csd (~> 1.0.5)
-      metanorma-gb (~> 1.0.5)
-      metanorma-iso (~> 1.0.6)
-      metanorma-m3d (~> 1.0.6)
-      metanorma-rsd (~> 1.0.5)
-      metanorma-standoc (~> 1.0.6)
-      nokogiri
-
-GIT
-  remote: https://github.com/riboseinc/metanorma-iso
-  revision: fa3134ff3d0cf71370e93afd4011439614267f35
-  specs:
-    metanorma-iso (1.0.8)
-      asciidoctor (~> 1.5.7)
-      iev (~> 0.2.0)
-      isodoc (~> 0.9.0)
-      metanorma-standoc (~> 1.0.0)
-      ruby-jing
-
-GIT
-  remote: https://github.com/riboseinc/metanorma-standoc
-  revision: e105a15519054fc43f3442e7cd2790e81f9d009c
-  specs:
-    metanorma-standoc (1.0.8)
-      asciidoctor (~> 1.5.7)
-      iev (~> 0.2.0)
-      isodoc (~> 0.9.0)
-      relaton (~> 0.3.0)
-      ruby-jing
-      sterile
-
-GIT
-  remote: https://github.com/riboseinc/metanorma-unece
-  revision: 9a30707dc716e536dad3624c247cddaa3991d34d
-  specs:
-    metanorma-unece (0.0.2)
-      asciidoctor (~> 1.5.7)
-      htmlentities (~> 4.3.4)
-      isodoc (~> 0.9.0)
-      metanorma-standoc (~> 1.0.0)
-      roman-numerals
-      ruby-jing
-      twitter_cldr
-
-GIT
-  remote: https://github.com/riboseinc/relaton
-  revision: 189c9ed772a427048e55ccd104cde73d050292c7
-  specs:
-    relaton (0.3.0)
-      algoliasearch
-      gbbib (~> 0.4.0)
-      iecbib (~> 0.2.0)
-      ietfbib (~> 0.4.2)
-      iso-bib-item (~> 0.4.2)
-      isobib (~> 0.4.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
+    addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    algoliasearch (1.23.2)
+    algoliasearch (1.26.0)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     asciidoctor (1.5.8)
-    asciidoctor-rfc (0.9.1)
-      asciidoctor (~> 1.5.7)
-      htmlentities (~> 4.3.4)
-      nokogiri
-      ruby-jing
-      thread_safe
-    asciimath (1.0.6)
+    asciimath (1.0.8)
     camertron-eprun (1.1.1)
     cldr-plurals-runtime-rb (1.0.1)
     cnccs (0.1.3)
-    ffi (1.9.25)
-    gb-agencies (0.0.3)
-    gbbib (0.4.1)
-      cnccs (~> 0.1.1)
-      gb-agencies (~> 0.0.1)
-      iso-bib-item (~> 0.4.2)
-    html2doc (0.8.6)
-      asciimath
+    concurrent-ruby (1.1.5)
+    ffi (1.11.1)
+    gb-agencies (0.0.5)
+    git (1.5.0)
+    html2doc (0.8.11)
+      asciimath (~> 1.0.7)
       htmlentities (~> 4.3.4)
       image_size
       mime-types
       nokogiri
-      ruby-xslt
       thread_safe
       uuidtools
     htmlentities (4.3.4)
     httpclient (2.8.3)
-    iecbib (0.2.1)
-      addressable
-      iso-bib-item (~> 0.4.2)
-    ietfbib (0.4.3)
-      iso-bib-item (~> 0.4.2)
-    iev (0.2.0)
+    iev (0.2.2)
       nokogiri
-    image_size (2.0.0)
-    iso-bib-item (0.4.2)
-      isoics (~> 0.1.6)
-      nokogiri (~> 1.8.4)
-      ruby_deep_clone (~> 0.8.0)
-    isobib (0.4.1)
-      algoliasearch
-      iecbib (~> 0.2.1)
-      iso-bib-item (~> 0.4.2)
-    isodoc (0.9.7)
+    image_size (2.0.1)
+    iso-639 (0.2.8)
+    isodoc (0.10.0)
       asciimath
-      html2doc (~> 0.8.6)
+      html2doc (~> 0.8.11)
       htmlentities (~> 4.3.4)
       liquid
       metanorma (~> 0.3.0)
-      nokogiri
+      nokogiri (>= 1)
       rake (~> 12.0)
       roman-numerals
-      ruby-xslt
-      sassc (~> 1.12.1)
+      sassc (~> 2)
       thread_safe
       uuidtools
     isoics (0.1.7)
-    json (2.1.0)
-    liquid (4.0.1)
-    metanorma (0.3.0)
-    metanorma-acme (1.0.3)
+    json (2.2.0)
+    liquid (4.0.3)
+    metanorma (0.3.12)
+      asciidoctor
+      htmlentities
+    metanorma-acme (1.2.0)
       asciidoctor (~> 1.5.7)
       htmlentities (~> 4.3.4)
-      isodoc (~> 0.9.0)
-      metanorma-standoc (~> 1.0.8)
+      isodoc (~> 0.10.0)
+      metanorma-standoc (~> 1.2.0)
       ruby-jing
-    metanorma-csand (1.0.7)
+    metanorma-cli (1.2.0)
+      git (~> 1.5)
+      isodoc (~> 0.10.0)
+      metanorma (~> 0.3.9)
+      metanorma-acme (~> 1.2.0)
+      metanorma-csand (~> 1.2.0)
+      metanorma-csd (~> 1.2.0)
+      metanorma-gb (~> 1.2.0)
+      metanorma-ietf (~> 1.0.1)
+      metanorma-iso (~> 1.2.0)
+      metanorma-m3d (~> 1.2.0)
+      metanorma-nist (~> 0.1.0)
+      metanorma-ogc (~> 0.1.0)
+      metanorma-standoc (~> 1.2.0)
+      metanorma-unece (~> 0.1.0)
+      nokogiri (>= 1)
+      thor (~> 0.20.3)
+    metanorma-csand (1.2.0)
       asciidoctor (~> 1.5.7)
       asciimath
       htmlentities (~> 4.3.4)
       image_size
-      isodoc (~> 0.9.0)
-      metanorma-standoc (~> 1.0.0)
+      isodoc (~> 0.10.0)
+      metanorma-standoc (~> 1.2.0)
       mime-types
       nokogiri
       ruby-jing
-      ruby-xslt
       thread_safe
       uuidtools
-    metanorma-csd (1.0.9)
-      isodoc (~> 0.9.6)
-      metanorma-standoc (~> 1.0.0)
-    metanorma-gb (1.0.7)
-      gb-agencies (~> 0.0.1)
-      isodoc (~> 0.9.1)
-      metanorma-iso (~> 1.0.1)
+    metanorma-csd (1.2.0)
+      isodoc (~> 0.10.0)
+      metanorma-standoc (~> 1.2.0)
+    metanorma-gb (1.2.0)
+      gb-agencies (~> 0.0.4)
+      htmlentities (~> 4.3.4)
+      isodoc (~> 0.10.0)
+      metanorma-iso (~> 1.2.0)
+      twitter_cldr (~> 4.4.4)
+    metanorma-ietf (1.0.3)
+      isodoc (~> 0.10.0)
+      metanorma-standoc (~> 1.2.0)
+    metanorma-iso (1.2.0)
+      asciidoctor (~> 1.5.7)
+      isodoc (~> 0.10.0)
+      metanorma-standoc (~> 1.2.0)
+      ruby-jing
+    metanorma-m3d (1.2.0)
+      asciidoctor (~> 1.5.7)
+      asciimath
+      htmlentities (~> 4.3.4)
+      image_size
+      isodoc (~> 0.10.0)
+      metanorma-standoc (~> 1.2.0)
+      mime-types
+      nokogiri
+      ruby-jing
+      thread_safe
+      uuidtools
+    metanorma-nist (0.1.1)
+      asciidoctor (~> 1.5.7)
+      htmlentities (~> 4.3.4)
+      isodoc (~> 0.10.0)
+      metanorma-standoc (~> 1.2.0)
+      relaton-nist (~> 0.2.0)
+      ruby-jing
       twitter_cldr
-    metanorma-m3d (1.0.8)
+      tzinfo-data
+    metanorma-ogc (0.1.0)
       asciidoctor (~> 1.5.7)
-      asciimath
       htmlentities (~> 4.3.4)
-      image_size
-      isodoc (~> 0.9.0)
-      metanorma-standoc (~> 1.0.0)
-      mime-types
-      nokogiri
+      iso-639
+      isodoc (~> 0.10.0)
+      metanorma-standoc (~> 1.2.0)
       ruby-jing
-      ruby-xslt
-      thread_safe
-      uuidtools
-    metanorma-rsd (1.0.7)
+    metanorma-standoc (1.2.0)
+      asciidoctor (~> 1.5.7)
+      concurrent-ruby
+      html2doc (~> 0.8.11)
+      iev (~> 0.2.1)
+      isodoc (~> 0.10.0)
+      relaton (~> 0.4.0)
+      relaton-cli (~> 0.2.0)
+      ruby-jing
+      sterile (~> 1.0.14)
+      unicode2latex (~> 0.0.1)
+    metanorma-unece (0.1.0)
       asciidoctor (~> 1.5.7)
       htmlentities (~> 4.3.4)
-      isodoc (~> 0.9.0)
-      metanorma-standoc (~> 1.0.0)
-      nokogiri
+      iso-639
+      isodoc (~> 0.10.0)
+      metanorma-standoc (~> 1.2.0)
+      roman-numerals
+      ruby-jing
+      twitter_cldr
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2018.0812)
+    mime-types-data (3.2019.0331)
     mini_portile2 (2.3.0)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     optout (0.0.2)
-    public_suffix (3.0.3)
-    rake (12.3.1)
-    rb-fsevent (0.10.3)
-    rb-inotify (0.9.10)
-      ffi (>= 0.5.0, < 2)
+    public_suffix (3.1.0)
+    rake (12.3.2)
+    relaton (0.4.0)
+      algoliasearch
+      relaton-gb (~> 0.5.0)
+      relaton-iec (~> 0.3.0)
+      relaton-ietf (~> 0.5.0)
+      relaton-iso (~> 0.5.0)
+      relaton-iso-bib (~> 0.2.0)
+      relaton-itu (~> 0.2.0)
+      relaton-nist (~> 0.2.0)
+    relaton-bib (0.2.1)
+      addressable
+      nokogiri (~> 1.8.4)
+    relaton-cli (0.2.0)
+      liquid
+      relaton (~> 0.4)
+      thor
+    relaton-gb (0.5.0)
+      cnccs (~> 0.1.1)
+      gb-agencies (~> 0.0.1)
+      relaton-iso-bib (~> 0.2.0)
+    relaton-iec (0.3.0)
+      addressable
+      relaton-iso-bib (~> 0.2.0)
+    relaton-ietf (0.5.0)
+      relaton-iso-bib (~> 0.2.0)
+    relaton-iso (0.5.0)
+      algoliasearch
+      relaton-iec (~> 0.3.0)
+      relaton-iso-bib (~> 0.2.0)
+    relaton-iso-bib (0.2.2)
+      isoics (~> 0.1.6)
+      nokogiri (~> 1.8.4)
+      relaton-bib (~> 0.2.0)
+      ruby_deep_clone (~> 0.8.0)
+    relaton-itu (0.2.0)
+      relaton-iso-bib (~> 0.2.0)
+    relaton-nist (0.2.1)
+      relaton-bib (~> 0.2.0)
     roman-numerals (0.3.0)
     ruby-jing (0.0.1)
       optout (>= 0.0.2)
-    ruby-xslt (0.9.10)
     ruby_deep_clone (0.8.0)
-    sass (3.6.0)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
-    sassc (1.12.1)
-      ffi (~> 1.9.6)
-      sass (>= 3.3.0)
-    sterile (1.0.13)
+    sassc (2.0.1)
+      ffi (~> 1.9)
+      rake
+    sterile (1.0.14)
       nokogiri
+    thor (0.20.3)
     thread_safe (0.3.6)
-    twitter_cldr (4.4.3)
+    twitter_cldr (4.4.4)
       camertron-eprun
       cldr-plurals-runtime-rb (~> 1.0)
       tzinfo
-    tzinfo (1.2.5)
-      thread_safe (~> 0.1)
+    tzinfo (2.0.0)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2019.1)
+      tzinfo (>= 1.0.0)
+    unicode2latex (0.0.2)
     uuidtools (2.1.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  metanorma-cli!
-  metanorma-iso!
-  metanorma-standoc!
-  metanorma-unece!
-  relaton!
+  metanorma-cli
+  metanorma-iso
+  metanorma-standoc
+  metanorma-unece
+  relaton
 
 BUNDLED WITH
-   1.17.1
+   2.0.1

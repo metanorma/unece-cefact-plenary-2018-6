@@ -1,0 +1,7 @@
+---
+metanorma:
+  deploy:
+    email: "travis-ci@metanorma.org"
+  source:
+    files:
+      - unece-cefact-plenary-2018-6.adoc

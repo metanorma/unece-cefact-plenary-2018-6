@@ -14,7 +14,11 @@
 :revdate: 9 February 2018
 :language: English
 :distribution: General
+:mn-output-extensions: xml,html,doc
 :toc:
+:docfile: unece-cefact-plenary-2018-6.adoc
+:mn-document-class: unece
+:mn-output-extensions: xml,html,doc,pdf
 :local-cache-only:
 :data-uri-image:
 
